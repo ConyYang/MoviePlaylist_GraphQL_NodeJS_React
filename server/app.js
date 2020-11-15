@@ -7,7 +7,8 @@ const app = express();
 // setup middleware
 app.use('/graphql', graphqlHTTP({
     // pass in a schema property
-    schema: schema
+    schema: schema,
+    graphiql: true
 }));
 
 
