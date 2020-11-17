@@ -3,7 +3,6 @@ const _ = require('lodash')
 const {GraphQLObjectType, GraphQLString,
         GraphQLSchema, GraphQLID,
         GraphQLInt, GraphQLList} = graphql;
-
 // Dummy Data
 var movies = [
     {name: 'The Shawshank Redemption', genre: 'Drama',id: '1', authorId:'1'},
